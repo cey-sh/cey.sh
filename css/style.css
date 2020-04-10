@@ -6,7 +6,7 @@ Author URI: https://onepagelove.com
 Theme URI: https://onepagelove.com/una
 Description: One Page WordPress starter theme with no posts, archives, comments or styles.
 Version: 1.0.3
-License: GPLv2 or later 
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: una
 Tags: one-column
@@ -106,7 +106,7 @@ acronym {
 }
 
 sup {
-  vertical-align: baseline;
+  font-size: 24px;
 }
 
 sub {
@@ -170,7 +170,7 @@ body {
 .temp {
   width: 640px;
   max-width: 80%;
-  margin: 120px auto 40px auto;
+  margin: 40px auto 40px auto;
   font-family: "YaldeviColombo", Georgia, Serif;
   font-size: 36px;
   line-height: 42px;
@@ -185,18 +185,24 @@ body {
 }
 
 .temp .intro {
-    font-size: 60px;
+  font-size: 60px;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: #000;
+    line-height: 100%;
 }
 
-.temp .intro a {
+.temp .py {
+font-size: 120px;
   font-weight: 700;
-  font-style: italic;
-  color: #333;
   text-decoration: none;
-  border-bottom: 1px dotted #333;
+  line-height: 100%;
+}
+
+.olcourse{
+    font-size: 36px;
+    line-height: 70px;
+    border-bottom: dotted;
 }
 
 .temp .instructions {
@@ -204,7 +210,13 @@ body {
   font-weight: 300;
   font-size: 24px;
   line-height: 28px;
-  color: #999;
+  color: #000;
+}
+
+.desc{
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 20px;
 }
 
 @media (max-width: 800px) {
@@ -216,7 +228,7 @@ body {
 
 .temp .instructions ul {
   margin: 0;
-  padding: 30px 0 0 0;
+  padding: 10px 0 0 0;
   margin: 0 0 20px 5px;
 }
 
@@ -226,16 +238,28 @@ body {
 }
 
 .temp .instructions ul li:before {
-  content: "→";
+  content: "⚪";
   padding-right: 20px;
 }
 
-#register{
-    padding: 10%;
-    text-align: center;
-    background-color: aqua;
+#register {
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #000000;
+  margin-top: 50px;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-#days-time{
-    text-align: center;
+#register:hover {
+  background-color: red;
+}
+
+#days-time {
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 600px;
 }
