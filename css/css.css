@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Playfair Display";
-  font-style: italic;
+  font-family: "YaldeviColombo";
+  font-style: bold;
   font-weight: 700;
-  src: url(../fonts/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXtHA_A.ttf)
+  src: url(../fonts/YaldeviColombo-Bold.ttf)
     format("truetype");
 }
 @font-face {
-  font-family: "Playfair Display";
+  font-family: "YaldeviColombo";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf)
+  src: url(../fonts/YaldeviColombo-SemiBold.ttf)
     format("truetype");
 }
