@@ -258,8 +258,8 @@ font-size: 120px;
   background-color: red;
 }
 
-#days-time {
-  margin-bottom: 30px;
+#deadline {
+  padding-bottom: 40px;
 }
 
 .logo {
