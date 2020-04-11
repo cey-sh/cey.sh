@@ -240,7 +240,7 @@ font-size: 120px;
 }
 
 .temp .instructions ul li:before {
-  content: "⚪";
+  content: "⚫";
   padding-right: 20px;
 }
 
@@ -259,11 +259,13 @@ font-size: 120px;
 }
 
 #deadline {
+  font-size: 20pt;
+  font-style: bold;
   padding-bottom: 40px;
 }
 
 .logo {
-  width: 600px;
+  width: 100%;
 }
 
 .tm{
