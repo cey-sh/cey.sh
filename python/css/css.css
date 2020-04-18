@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "YaldeviColombo";
+  font-style: bold;
+  font-weight: 700;
+  src: url(../fonts/YaldeviColombo-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "YaldeviColombo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/YaldeviColombo-SemiBold.ttf) format("truetype");
+}
