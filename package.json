@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cey-sh/cey.sh.src"
+    "url": "https://github.com/cey-sh/cey.sh"
   },
   "bugs": {
-    "url": "https://github.com/cey-sh/cey.sh.src/issues"
+    "url": "https://github.com/cey-sh/cey.sh/issues"
   }
 }
